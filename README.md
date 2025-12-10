@@ -35,5 +35,5 @@ https://github.com/react-hook-form/react-hook-form/pulls?q=author%3Aa28689604
 ---
 
 ## 📫 Contact
-- **Email:** a28689604@email  
+- **Email:** a28689604@gmail.com  
 - **LinkedIn:** https://www.linkedin.com/in/chih-hsiang-chen-750b481b0/
