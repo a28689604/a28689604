@@ -21,6 +21,7 @@ Currently learning full-stack development and contributing to open-source projec
 - **Fix:** batch `isValidating` updates to prevent inconsistent validation state ([#13181](https://github.com/react-hook-form/react-hook-form/pull/13181))
 - **Fix:** prevent field-array ghost elements when using `keepDirtyValues` ([#13188](https://github.com/react-hook-form/react-hook-form/pull/13188))
 - **Fix:** handle branded types correctly in DeepPartial ([#13222](https://github.com/react-hook-form/react-hook-form/pull/13222))
+- **Fix:** improve invalid date handling in deepEqual and validation ([#13230](https://github.com/react-hook-form/react-hook-form/pull/13230))
 - **DX:** improved Windows compatibility in ESLint scripts ([#13155](https://github.com/react-hook-form/react-hook-form/pull/13155))  
 
 **Full list of contributions:**  
