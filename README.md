@@ -15,14 +15,14 @@ Currently learning full-stack development and contributing to open-source projec
 ## 🧩 Open Source Contributions 
 ### React Hook Form (2M+ weekly downloads)
 
-- **Performance:** 300×–900× faster `useFieldArray.replace` updates ([#13140](https://github.com/react-hook-form/react-hook-form/pull/13140))  
-- **Fix:** async reset state didn't recompute `isValid` ([#13126](https://github.com/react-hook-form/react-hook-form/pull/13126))  
-- **Fix:** preserve `isValid` on `reset` when using `keepIsValid` ([#13173](https://github.com/react-hook-form/react-hook-form/pull/13173))  
-- **Fix:** batch `isValidating` updates to prevent inconsistent validation state ([#13181](https://github.com/react-hook-form/react-hook-form/pull/13181))
-- **Fix:** prevent field-array ghost elements when using `keepDirtyValues` ([#13188](https://github.com/react-hook-form/react-hook-form/pull/13188))
-- **Fix:** handle branded types correctly in DeepPartial ([#13222](https://github.com/react-hook-form/react-hook-form/pull/13222))
-- **Fix:** improve invalid date handling in deepEqual and validation ([#13230](https://github.com/react-hook-form/react-hook-form/pull/13230))
-- **DX:** improved Windows compatibility in ESLint scripts ([#13155](https://github.com/react-hook-form/react-hook-form/pull/13155))  
+- **Performance:** Optimized `useFieldArray.replace` to be 300×–900× faster, eliminating full-form resolver re-execution and UI freezes ([#13140](https://github.com/react-hook-form/react-hook-form/pull/13140))  
+- **Correctness:** Fixed `isValid` not recomputing after async `reset()` value updates, resolving stale form state caused by internal mount flags ([#13126](https://github.com/react-hook-form/react-hook-form/pull/13126))  
+- **Type Safety:** Correctly handled branded primitive types in `DeepPartial`, preventing incorrect expansion into object structures ([#13222](https://github.com/react-hook-form/react-hook-form/pull/13222))  
+- **Validation:** Batched `isValidating` state updates with resolver results to avoid temporary inconsistent validation states ([#13181](https://github.com/react-hook-form/react-hook-form/pull/13181))
+- **Forms / Field Arrays:** Prevented ghost elements when using `useFieldArray` with `keepDirtyValues` during resets ([#13188](https://github.com/react-hook-form/react-hook-form/pull/13188))
+
+**Additional contributions:**  
+Fixed edge cases involving keepIsValid, disabled field state, invalid date comparison, and improved Windows compatibility in tooling.
 
 **Full list of contributions:**  
 https://github.com/react-hook-form/react-hook-form/pulls?q=author%3Aa28689604
